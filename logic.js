@@ -21,7 +21,7 @@ function startTimer() {
 }
 
 function getCurrentTime() {
-  appendConsole('DOM: Get Time button clicked!');
+  appendConsole('DOM: Get Lap Time button clicked!');
 }
 
 function stopTimer() {
