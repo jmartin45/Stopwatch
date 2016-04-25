@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Stopwatch Web Services</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="page">
+      <div id="navigation-box">
+        <div id="navigation-content">
+          <span class="nav-title">Web Stopwatch</span>
+        </div>
+      </div>
+      <div id="content-box">
+        <div id="content-content">
+          <div id="title-box">
+            <div id="title-content">
+              <span class="main-title">Stopwatch - RESTful Web Services with Go</span>
+            </div>
+          </div>
+          <div id="controls-box">
+            <div id="controls-content">
+              <span class="section-header">Control Panel</span><br />
+              <input type="button" value="Start Timer" id="btnStart" />
+              <input type="button" value="Get Time" id="btnGet" />
+              <input type="button" value="Stop Timer" id="btnStop" />
+            </div>
+          </div>
+          <div id="console-box">
+            <div id="console-content">
+              <span class="section-header">Console</span>
+              <ul id="console">
+                <li><i>Messages:</i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="logic.js"></script>
+  </body>
+</html>
